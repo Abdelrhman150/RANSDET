@@ -1,9 +1,9 @@
-# RanDetect
+# RANSDET
 ## Machine Learning-Based Early Ransomware Detection and File Recovery System
 
-RanDetect is an intelligent cybersecurity system designed to detect ransomware attacks at an early stage by analyzing suspicious file and process behaviors.
+RANSDET is an intelligent cybersecurity system designed to detect ransomware attacks at an early stage by analyzing suspicious file and process behaviors.
 
-Instead of relying on known ransomware signatures, RanDetect focuses on identifying ransomware-like encryption behavior such as mass file modification, abnormal write activity, entropy increase, and large-scale content changes.
+Instead of relying on known ransomware signatures, RANSDET focuses on identifying ransomware-like encryption behavior such as mass file modification, abnormal write activity, entropy increase, and large-scale content changes.
 
 The system combines behavioral monitoring, machine learning classification, and protected file versioning to reduce data loss and enable automatic recovery of affected files.
 
@@ -18,7 +18,7 @@ Ransomware attacks usually follow a common pattern:
 3. Replacing the original files
 4. Preventing users from accessing their data
 
-RanDetect aims to interrupt this process by detecting abnormal encryption behavior before the attack spreads.
+RANSDET aims to interrupt this process by detecting abnormal encryption behavior before the attack spreads.
 
 The main workflow:
 
@@ -44,7 +44,7 @@ Alert + File Recovery
 
 ## Real-Time Behavior Monitoring
 
-RanDetect analyzes system activity and collects information about:
+RANSDET analyzes system activity and collects information about:
 
 - File read/write operations
 - File modification frequency
@@ -72,7 +72,7 @@ These features help distinguish malicious encryption from normal bulk operations
 
 ## Machine Learning Detection
 
-RanDetect uses machine learning models to classify system behavior.
+RANSDET uses machine learning models to classify system behavior.
 
 Current models:
 
@@ -91,7 +91,7 @@ The goal is to detect ransomware behavior rather than identify a specific ransom
 
 ## File Recovery System
 
-To minimize damage, RanDetect maintains protected file versions.
+To minimize damage, RANSDET maintains protected file versions.
 
 When suspicious activity is detected:
 
@@ -114,7 +114,7 @@ The recovery system helps restore files without depending on decrypting the rans
 
 # Feature Engineering
 
-RanDetect uses behavioral and file-based features.
+RANSDET uses behavioral and file-based features.
 
 Examples:
 
@@ -274,4 +274,4 @@ Can machine learning detect ransomware-like mass encryption behavior early enoug
 
 # Disclaimer
 
-RanDetect is developed for cybersecurity research and educational purposes in controlled environments.
+RANSDET is developed for cybersecurity research and educational purposes in controlled environments.
